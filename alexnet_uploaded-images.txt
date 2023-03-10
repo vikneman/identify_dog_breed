@@ -1,0 +1,127 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Cat_01.jpg  label:                        cat
+ 2 key:            Russian_flag_01.jpg  label:               russian flag
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier: Pembroke, Pembroke Welsh corgi, corgi
+
+           Russian_flag_01.jpg: 
+Real:               russian flag   Classifier:            flagpole, flagstaff
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                 French bulldog
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                 French bulldog
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+** Warning: Key= corgi already exists.
+** Warning: Key= affenpinscher already exists.
+** Warning: Key= afghan hound already exists.
+** Warning: Key= airedale terrier already exists.
+** Warning: Key= alaskan malamute already exists.
+** Warning: Key= american staffordshire terrier already exists.
+** Warning: Key= basset hound already exists.
+** Warning: Key= bloodhound already exists.
+** Warning: Key= borzoi already exists.
+** Warning: Key= boston terrier already exists.
+** Warning: Key= bouvier des flandres already exists.
+** Warning: Key= cairn terrier already exists.
+** Warning: Key= cardigan welsh corgi already exists.
+** Warning: Key= chow chow already exists.
+** Warning: Key= clumber spaniel already exists.
+** Warning: Key= cocker spaniel already exists.
+** Warning: Key= corgi already exists.
+** Warning: Key= dalmatian already exists.
+** Warning: Key= dandie dinmont terrier already exists.
+** Warning: Key= deerhound already exists.
+** Warning: Key= doberman pinscher already exists.
+** Warning: Key= english cocker spaniel already exists.
+** Warning: Key= english springer spaniel already exists.
+** Warning: Key= german shepherd dog already exists.
+** Warning: Key= ibizan hound already exists.
+** Warning: Key= irish setter already exists.
+** Warning: Key= lhasa apso already exists.
+** Warning: Key= maltese already exists.
+** Warning: Key= newfoundland already exists.
+** Warning: Key= norwegian elkhound already exists.
+** Warning: Key= old english sheepdog already exists.
+** Warning: Key= otterhound already exists.
+** Warning: Key= pekingese already exists.
+** Warning: Key= pembroke welsh corgi already exists.
+** Warning: Key= poodle already exists.
+** Warning: Key= pug already exists.
+** Warning: Key= saint bernard already exists.
+** Warning: Key= saluki already exists.
+** Warning: Key= samoyed already exists.
+** Warning: Key= schnauzer already exists.
+** Warning: Key= scottish terrier already exists.
+** Warning: Key= sealyham terrier already exists.
+** Warning: Key= shetland sheepdog already exists.
+** Warning: Key= silky terrier already exists.
+** Warning: Key= staffordshire bull terrier already exists.
+** Warning: Key= tibetan terrier already exists.
+** Warning: Key= vizsla already exists.
+** Warning: Key= walker hound already exists.
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Cat_01.jpg: 
+Real:                        cat   Classifier: Pembroke, Pembroke Welsh corgi, corgi  
+PetLabelDog: 0  ClassLabelDog: 1
+
+           Russian_flag_01.jpg: 
+Real:               russian flag   Classifier:            flagpole, flagstaff  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                 French bulldog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                 French bulldog  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  50.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  50.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match = 0.0
+pct_correct_dogs = 100.0
+pct_correct_breed = 0.0
+pct_correct_notdogs = 50.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                        cat   Classifier: Pembroke, Pembroke Welsh corgi, corgi
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                 French bulldog
+Real:                        dog   Classifier:                 French bulldog
+
+** Total Elapsed Runtime: 0:0:0
